@@ -40,10 +40,15 @@
             <h1>Breno <span>Guarilha</span></h1>
             <h3>I'am a Web Developer.</h3>
             <div class="newslatter">
-                <form>
-                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-                    <input type="submit" name="submit" value="Lets Start">
-                </form>
+                <form action="https://formsubmit.co/contact.brenoguarilha@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Your full name" required>
+                    <div class="space"></div>
+                    <input type="email" name="email" placeholder="Your e-mail" required>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://brenoguarilha.ga">
+                    <div class="space"></div>
+                    <button type="submit">Lets start</button>
+               </form>
             </div>
         </div>
     </div>
@@ -131,6 +136,7 @@
         <p class="end">CopyRight By Breno Guarilha</p>
     </footer>
     <a class="back-to-top" href="#Home">➤</a>
+    
 </body>
 
 </html>
